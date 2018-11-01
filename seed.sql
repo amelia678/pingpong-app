@@ -12,7 +12,7 @@ values
     ('anokhee');
 
 insert into games
-    (player1_score, player2_score, player1_id, player_2id)
+    (player1_score, player2_score, player1_id, player2_id)
 values  
     (21, 0, 2, 3),
     (21, 2, 2, 3),

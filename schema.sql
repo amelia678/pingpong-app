@@ -1,15 +1,15 @@
 -- should only contain the create table statements
 create table players (
     id serial primary key,
-    name varchar(100),
+    name varchar(100)
     
 );
 
 create table games (
     id serial primary key,
     
-    player_1 score integer,
-    player_2 score integer,
+    player1_score integer,
+    player2_score integer,
 
     winner_id integer references players (id),
 
